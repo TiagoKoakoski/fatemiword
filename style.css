@@ -11,9 +11,127 @@
     border-radius: 10px;
 }
 
+.nav-top {
+    height: 63px;
+    border-top: 0.5px solid #2a0658;
+    border-bottom: 1px solid #2a0658;
+}
+
+.nav-container {
+    padding-left: 25% !important;
+    padding-right: 25% !important;
+}
+
+.title {
+    text-align: center;
+}
+.offcanvas-body {
+    color: #2a0658 !important;
+}
+.nav-link {
+    color: #2a0658;
+}
+
 .container {
     display: flex;
     position: relative;
+}
+
+.video {
+    text-align: center;
+}
+
+
+
+
+.stories {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.nav-feed {
+    border-bottom: none !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.nav-link-1 {
+    color: #495057;
+    background-color: #fafafa !important;
+    border-color: gray #fff #fff !important;
+    border-top-right-radius: .0rem !important;
+    border-top-left-radius: .0rem !important;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.nav-link-2 {
+    color: #a2a8af;
+    background-color: #fafafa !important;
+    border-color: #fff #fff #fff !important;
+    border-top-right-radius: .0rem !important;
+    border-top-left-radius: .0rem !important;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.card {
+    border: 0px solid rgba(0,0,0,.125) !important;
+    border-radius: .0rem !important;
+    position: relative;
+    display: inline-block;
+}
+
+.card .card-img .card-img-top {
+    border-top-left-radius: 0rem !important;
+    border-top-right-radius: 0rem !important;
+}
+
+.sobreposicao {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0,0,0, .4);
+}
+    
+.texto {
+    color: white;
+    font-size: 1.7rem;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.texto a{
+    color: white;
+    text-decoration: none;
+}
+.texto a:hover {
+    color: white;
+}
+
+
+a .icons {
+    color:#495057;
+}
+.icons a:hover{
+    color:#495057;
+}
+
+.card:hover .sobreposicao{
+    opacity:1;
 }
 
 .video {
