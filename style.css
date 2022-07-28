@@ -10,6 +10,11 @@
     background-color: #2a0658;
     border-radius: 10px;
 }
+.bi {
+    font-size: 2rem;
+    padding-left: 25;
+    padding-right: 25px;
+}
 
 .nav-top {
     height: 63px;
@@ -40,9 +45,6 @@
 .video {
     text-align: center;
 }
-
-
-
 
 .stories {
     text-align: center;
@@ -137,3 +139,4 @@ a .icons {
 .video {
     text-align: center;
 }
+
