@@ -7,7 +7,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #2a0658;
+    background-color: #ffffff;
     border-radius: 10px;
 }
 .bi {
@@ -82,7 +82,7 @@
 
 .card {
     border: 0px solid rgba(0,0,0,.125) !important;
-    border-radius: .0rem !important;
+    
     position: relative;
     display: inline-block;
 }
