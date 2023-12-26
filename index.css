@@ -5,6 +5,10 @@
     padding: 0;    
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     background-color: black;
     display: flex;
@@ -19,7 +23,9 @@ header a {
     padding: 10px;
     text-decoration: none;
 }
-
+section {
+    min-height: 500px;
+}
 footer {
     display: flex;
     justify-content: space-between;
