@@ -23,15 +23,59 @@ header a {
     padding: 10px;
     text-decoration: none;
 }
-section {
-    min-height: 500px;
+
+#word {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+    padding: 24px 80px;
+    position: relative;
+    min-height: 600px;
 }
+
+#word  h2, p {
+    color: black;
+    padding: 24px 80px;
+}
+
+.absolute {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: -10;
+}
+
+#professores {
+    padding: 24px;
+}
+
+.teacher-galery {
+    display: flex;
+    height: 20rem;
+    gap: 1rem;
+}
+
+.teacher-galery > div {
+    flex: 1;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+}
+
+.teacher-galery > div:hover {
+    flex: 5;
+}
+
 footer {
     display: flex;
     justify-content: space-between;
     background-color: black;
     gap: 80px;
     padding: 64px 80px;
+    color: white;
 }
 
 footer li {
@@ -45,13 +89,11 @@ footer a {
 }
 
 footer .title {
-    color: white;
     display: block;
     font-weight: 700;
     margin-bottom: 24px;
 }
 
 footer p {
-    color: white;
     padding-top: 24px;
 }
